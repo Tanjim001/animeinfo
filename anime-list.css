@@ -9,19 +9,27 @@ body
    cursor: pointer;
    font-style: italic;
    text-align: justify;
-   background:rgb(2, 1, 15);
+  background-color: rgb(2, 1, 5);
+
+
 }
 h1{
     text-align: center;
     text-shadow: 30px #ecc693;
     padding: 10px;
+    background: url("img/495521.jpg");
+    background-size:100vw 300vw ;
+    background-repeat: no-repeat;
+   
+
 }
 table,th,td
 {
 border: .3vw solid rgb(228, 224, 213);
 margin: 1vw;
 border-collapse: collapse ;
-padding:1vw 
+padding:1vw;
+
 
 }
 h2
@@ -42,7 +50,7 @@ h4
 img.D1
 {
 height: 50vw;
-width:  90vw;
+width: 85vw;
 align-items: center;
 }
 img.I1
@@ -96,6 +104,60 @@ select.login
     padding-left: 0.5vw;
     padding-top: .5vw;
     padding-bottom:.5vw;
+    padding-right: .5vw;
+}
+
+*
+{
+    box-sizing: border-box;
+    row-gap: 2vw;
+}
+[class*="col-"]
+{
+   float: right; 
+    padding:1vw;
     
     
+}
+.col-1 {width:30vw;}
+.col-2 {width:100vw;}
+.col-3{width:100vw;}
+.col-4{width:100%;}
+.col-5{width:100%;}
+.col-6{width:100%;}
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
+}
+#s-left
+{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: #ecc693;
+}
+#s-right
+{
+    padding-left: .5vw;
+    border: #ecc693;
+    position: sticky;
+    
+    top: 0px;
+    padding-right:.5vw ;
+}
+#s-right1
+{
+    padding-left: 2vw;
+    padding-top: .5vw;
+    padding-bottom: .5vw;
+    position :absolute;
+    tab-size: 1vw;
+    top: 50%;
+    }
+#icons
+{
+ text-align: justify;
+ 
 }
